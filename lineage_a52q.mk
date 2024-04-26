@@ -32,6 +32,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_a52q
@@ -41,7 +42,8 @@ PRODUCT_MODEL := SM-A525F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-PRODUCT_SHIPPING_API_LEVEL := 30
+# Maintainer
+MATRIXX_MAINTAINER := HoSsAiN
 
 # Vendor fingerprint
 BUILD_FINGERPRINT := "samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXU6EWL3:user/release-keys"
